@@ -1,4 +1,16 @@
 
-@import "./navbar.css"
+@import "./navbar.css";
+@import "./content.css";
+@import "./bottom-panel.css";
 
-
+.container {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "nv nv nv nv nv"
+    "main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    border: 1px solid red;
+}
