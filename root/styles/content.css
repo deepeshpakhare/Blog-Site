@@ -14,6 +14,10 @@
     object-fit: scale-down;
 }
 
+#image:hover {
+    opacity: 0.93;
+}
+
 #goto-btn {
     background-color: rgb(92, 204, 238);
     width: 150px;
