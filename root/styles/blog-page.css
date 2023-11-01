@@ -1,0 +1,16 @@
+@import "./navbar.css";
+@import "./bottom-panel.css";
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, auto);
+    grid-template-areas:
+        "nv nv"
+        "main main"
+        "bt bt";
+    background-color: rgb(247, 251, 242);
+    width: 105vw;
+    height: 1000px;
+}

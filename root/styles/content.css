@@ -49,3 +49,11 @@
     margin: 15px 5px 5px 15px;
     font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* top pick text */
+#top-pick {
+    font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin:0 0 10px 10px;
+    color: rgb(238, 125, 125);
+}
