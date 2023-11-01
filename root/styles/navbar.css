@@ -4,7 +4,10 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 50px;
+    margin-top: 10px;
+    height: 70px;
+    box-shadow: 0 10px 10px rgb(196, 190, 190);
+    padding: 20px;
 }
 
 /* logo */

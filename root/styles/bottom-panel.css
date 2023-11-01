@@ -1,4 +1,5 @@
 .bottom-panel {
-    border: 1px solid rgb(6, 6, 6);
     grid-area: ft;
+    display: flex;
+    flex-direction: row;   
 }

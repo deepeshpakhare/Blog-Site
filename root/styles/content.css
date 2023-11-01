@@ -1,8 +1,19 @@
 .content {
     grid-area: main;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
-    border: 1px solid green;
+}
+
+.card1 {
+    width: 500px;
+    height: 700px;
+    background-color: brown;
+}
+
+.card2 {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(165, 42, 112);
 }
