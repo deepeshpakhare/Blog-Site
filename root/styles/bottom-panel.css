@@ -6,6 +6,8 @@
     align-items: flex-start;
     gap: 20px;
     margin-top: 10px;
+    background-color: rgb(235, 240, 230);
+    padding: 10px;
 }
 
 .blog-card-bottom {
@@ -46,4 +48,18 @@
     font: 18px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(20, 92, 107);
     margin: 10px 0 0 15px;
+}
+
+.blog-card-btn {
+    background-color: rgb(92, 204, 238);
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 85px 5px 5px 15px;
+}
+
+.blog-card-btn > a {
+    text-decoration: none;
+    color: white;
 }
