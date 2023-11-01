@@ -1,19 +1,44 @@
 .content {
     grid-area: main;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.card1 {
-    width: 500px;
-    height: 700px;
-    background-color: brown;
+#image {
+    background-image: url("../../assets/images/cobra-pose1.jpg");
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: scale-down;
 }
 
-.card2 {
+#goto-btn {
+    background-color: rgb(92, 204, 238);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 5px 5px 15px;
+}
+
+#goto-btn > a {
+    text-decoration: none;
+    color: white;
+    font: 22px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#intro-title {
     width: 500px;
-    height: 700px;
-    background-color: rgb(165, 42, 112);
+    color: white;
+    margin: 15px 5px 5px 15px;
+    font: 38px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#intro-author {
+    width: 600px;
+    color: white;
+    margin: 15px 5px 5px 15px;
+    font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

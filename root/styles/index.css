@@ -4,11 +4,12 @@
 
 .container {
     display: grid;
-    margin-top: 30px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-areas:
         "nv nv"
-        "main main"
-        "ft ft";
+        "main main";
+    background-color: rgb(247, 251, 242);
+    width: 105vw;
+    height: 900px;
 }
