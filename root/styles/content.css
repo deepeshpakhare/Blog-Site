@@ -6,18 +6,20 @@
     align-items: center;
 }
 
-#image {
-    background-image: url("../../assets/images/cobra-pose1.jpg");
+/* blog card*/
+#blog-image {
+    background-image: url("../../assets/images/cobra-pose.jpg");
     width: 700px;
     height: 500px;
     border-radius: 10px;
     object-fit: scale-down;
 }
 
-#image:hover {
-    opacity: 0.93;
+#blog-image:hover {
+    opacity: 0.8;
 }
 
+/* button over blog card*/
 #goto-btn {
     background-color: rgb(92, 204, 238);
     width: 150px;
@@ -33,6 +35,7 @@
     font: 22px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* content of blog card */
 #intro-title {
     width: 500px;
     color: white;
