@@ -12,5 +12,89 @@
         "bt bt";
     background-color: rgb(247, 251, 242);
     width: 105vw;
-    height: 1000px;
+    height: max-content;
+}
+
+.content {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 800px;
+    margin: 0 0 0 300px;
+    font: 23px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.content:hover {
+    background-color: white;
+}
+
+
+.content > a {
+    margin: 0 0 100px 300px;
+    font-size: large;
+}
+
+.intro {
+    width: inherit;
+    height: fit-content;
+}
+
+.image {
+    width: inherit;
+    height: fit-content;
+}
+
+#bhujangasana {
+    background-image: url("../../assets/images/cobra-pose.jpg");
+    width: 700px;
+    height: 500px;
+}
+
+.content-title {
+    font : 32px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin : 0 0 0 90px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.sub-titles {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#dhanurasana {
+    background-image: url("../../assets/images/dhanurasana-blog-page.jpg");
+    width: 700px;
+    height: 500px;
+}
+
+#chakrasana {
+    background-image: url("../../assets/images/chakrasana-blog-page.jpg");
+    width: 700px;
+    height: 500px;
+}
+
+.about-author {
+    color: blue;
+    margin: 0 0 0 400px;
+}
+
+.share {
+    text-decoration: underline;
+}
+
+.like {
+    font-size: 30px;
+    color: rgb(150, 224, 224);
+    margin: 17px 0 0 0;
+
+}
+
+.count {
+    font-size: small;
+    margin: 10px 0 0 10px;
 }
