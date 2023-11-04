@@ -15,21 +15,31 @@
     height: max-content;
 }
 
-.content {
+.content-container {
     grid-area: main;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     width: 800px;
     margin: 0 0 0 300px;
     font: 23px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: rgb(239, 244, 244);
+  
 }
 
 .content:hover {
-    background-color: white;
+      background-color: white;
 }
 
 
@@ -83,18 +93,55 @@
     margin: 0 0 0 400px;
 }
 
+.author-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    margin: 0 0 0 40px;
+    background-color: rgb(239, 244, 244);
+    border-radius: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(209, 220, 220);
+    width: 150px;
+    border-radius: 20px;
+}
+
 .share {
     text-decoration: underline;
 }
 
-.like {
-    font-size: 30px;
-    color: rgb(150, 224, 224);
-    margin: 17px 0 0 0;
-
+.share {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
-.count {
-    font-size: small;
-    margin: 10px 0 0 10px;
+.share > * {
+    padding: 10px;
 }
+
+#fb {
+    grid-area: fb;
+}
+
+#insta {
+    grid-area: insta;
+}
+
+#whatsapp {
+    grid-area: whatsapp;
+}
+
