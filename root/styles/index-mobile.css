@@ -1,0 +1,15 @@
+@import "./navbar-mobile.css";
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nv nv"
+        "main main"
+        "bt bt";
+    background-color: rgb(247, 251, 242);
+    width: 105vw;
+    height: 1000px;
+}

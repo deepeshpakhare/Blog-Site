@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./content.css";
 @import "./bottom-panel.css";
+@import "./index-mobile.css" (min-width: 300px) and (max-width: 480px) ;
 
 .container {
     display: grid;
