@@ -1,4 +1,6 @@
 @import "./navbar-mobile.css";
+@import"./content-mobile.css";
+@import "./bottom-panel-mobile.css";
 
 
 .container {
@@ -10,6 +12,6 @@
         "main main"
         "bt bt";
     background-color: rgb(247, 251, 242);
-    width: 105vw;
+    width: 100vw;
     height: 1000px;
 }

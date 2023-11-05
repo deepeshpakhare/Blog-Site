@@ -1,0 +1,59 @@
+.content {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* blog card*/
+#blog-image {
+    background-image: url("../../assets/images/cobra-pose-mobile.jpg");
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: scale-down;
+}
+
+#blog-image:hover {
+    opacity: 0.8;
+}
+
+/* button over blog card*/
+#goto-btn {
+    background-color: rgb(92, 204, 238);
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 85px 5px 5px 15px;
+}
+
+#goto-btn > a {
+    text-decoration: none;
+    color: white;
+    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* content of blog card */
+#intro-title {
+    width: 500px;
+    color: white;
+    margin: 15px 5px 5px 10px;
+    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#intro-author {
+    width: 600px;
+    color: white;
+    margin: 15px 5px 5px 15px;
+    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* top pick text */
+#top-pick {
+    font: 20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin:0 0 10px 10px;
+    color: rgb(238, 125, 125);
+}
