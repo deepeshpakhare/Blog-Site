@@ -2,5 +2,6 @@
 @import "./bottom-panel.css";
 @import "./blog-page-content.css";
 @import "./blog-page-mobile.css" (min-width: 300px) and (max-width: 480px);
+@import "./blog-page-tablet.css" (min-width: 700px) and (max-width: 1024px);
 
 

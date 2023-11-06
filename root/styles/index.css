@@ -1,17 +1,8 @@
 @import "./navbar.css";
 @import "./content.css";
 @import "./bottom-panel.css";
-@import "./index-mobile.css" (min-width: 300px) and (max-width: 480px);
+@import "./home-page.css";
+@import "./home-page-mobile.css" (min-width: 300px) and (max-width: 480px);
+@import "./home-page-tablet.css" (min-width: 481px) and (max-width: 768px);
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(9, auto);
-    grid-template-areas:
-        "nv nv"
-        "main main"
-        "bt bt";
-    background-color: rgb(247, 251, 242);
-    width: 105vw;
-    height: 1000px;
-}
+
