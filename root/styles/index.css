@@ -3,6 +3,6 @@
 @import "./bottom-panel.css";
 @import "./home-page.css";
 @import "./home-page-mobile.css" (min-width: 300px) and (max-width: 480px);
-@import "./home-page-tablet.css" (min-width: 481px) and (max-width: 768px);
+@import "./home-page-tablet.css" (min-width: 700px) and (max-width: 1024px);
 
 
