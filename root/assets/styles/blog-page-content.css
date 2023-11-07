@@ -5,7 +5,8 @@
     grid-template-areas:
         "nv nv"
         "main main"
-        "bt bt";
+        "bt bt"
+        "ft ft";
     background-color: rgb(247, 251, 242);
     width: 105vw;
     height: max-content;
