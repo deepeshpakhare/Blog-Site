@@ -42,18 +42,16 @@
 h1 {
     font: 600 35px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: rgb(238, 125, 125);
 }
 
 h2 {
     font: 600 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: capitalize;
 }
 
 h3 {
     font: 600 18px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
     text-transform: capitalize;
 }
 
@@ -64,9 +62,11 @@ h3 {
     font: 38px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#intro-author {
+#author-citation {
     width: 600px;
     color: white;
-    margin: 0 5px 5px 15px;
-    font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 5px 5px 200px;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+

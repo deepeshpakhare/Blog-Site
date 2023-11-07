@@ -44,6 +44,38 @@
     font-size: large;
 }
 
+/* header tags */
+h1 {
+    font: 600 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-transform: uppercase; 
+    color: crimson;
+}
+
+h2 {
+    font: 200 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+h3 {
+    font: 200 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    color: blue;
+}
+
+/* <p> tag settings */
+p {
+    line-height: 3cap;
+    text-align: justify;
+    color: darkslategrey;
+}
+
+/* <ul> settings */
+ul {
+    line-height: 3cap;
+}
+
 .intro {
     width: inherit;
     height: fit-content;
@@ -54,12 +86,6 @@
     height: fit-content;
 }
 
-#bhujangasana {
-    background-image: url("../../assets/images/cobra-pose.jpg");
-    width: 700px;
-    height: 500px;
-}
-
 .content-title {
     font : 32px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin : 0 0 0 90px;
@@ -67,9 +93,11 @@
     color: brown;
 }
 
-.sub-titles {
-    text-decoration: underline;
-    padding: 10px;
+
+
+.image {
+    width: 700px;
+    height: 500px;
 }
 
 #dhanurasana {
