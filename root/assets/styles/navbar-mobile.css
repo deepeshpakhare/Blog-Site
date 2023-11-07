@@ -4,39 +4,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 125px;
     box-shadow: 15px 16px 10px 10px rgb(229, 248, 210);
     margin: 0 0 90px 0;
     width: 100vw;
     background-color: rgb(244, 251, 224);
     padding: 30px 5px 5px 5px ;
-    gap: 8px;
+    gap: 10px;
 }
 
+/* logo */
 #title {
-    margin: 15px 0 0 10px;
+    margin-left: 10px;
     font : 600 20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(20, 20, 116);
 }
 
 /* search widget */
 .search-widget {
-    margin: 0 0 0 2px;
-    width: 250px;
-    height: 28px;
+    display: flex;
+    margin: 0 0 0 20px;
+    width: 270px;
+    height: 50px;
     border: 1px solid rgb(120, 119, 119);
     border-radius: 8px;
     background-color: white;
 }
 
 #search-icon {
-    font-size: 14px;
+    font-size: 30px;
     color: rgb(183, 180, 180);
-    /*margin-left: 20px;*/
+    margin-left: 20px;
 }
 
 #search-input {
-    font-size: 12px;
+    font-size: 18px;
     width: 180px;
     margin: 2px;
     border: none;
@@ -50,13 +52,13 @@
 /* subscribe button */
 .subscribe-btn,
 .about-btn {
-    margin: 0 0 0 0;
-    width: 100px;
-    height: 27px;
+    margin: 0 0 0 10px;
+    width: 150px;
+    height: 53px;
     border: 1px solid rgb(120, 119, 119);
     border-radius: 40px;
     background-color: white;
-    font : 12px 'Courier New', Courier, monospace ;
+    font : 20px 'Courier New', Courier, monospace ;
 }
 
 .subscribe-btn:hover {

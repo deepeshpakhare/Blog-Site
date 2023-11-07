@@ -3,57 +3,85 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 /* blog card*/
-#blog-image {
-    background-image: url("../../assets/images/cobra-pose-mobile.jpg");
-    width: 300px;
-    height: 200px;
+
+#cobra-pose-image {
     border-radius: 10px;
-    object-fit: scale-down;
+    width: 300px;
+    height: 250px;
+    margin: 10px 30px 0 0;
 }
 
-#blog-image:hover {
+#blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgb(168, 187, 162);
+    box-shadow: 5px 5px 5px 5px rgb(173, 169, 169);
+    width: 380px;
+}
+
+#blog-card:hover {
     opacity: 0.8;
 }
 
 /* button over blog card*/
 #goto-btn {
     background-color: rgb(92, 204, 238);
-    width: 90px;
-    height: 25px;
+    width: 150px;
+    height: 40px;
     border: none;
     border-radius: 10px;
-    margin: 85px 5px 5px 15px;
+    margin: 0 15px 45px 30px;
 }
 
 #goto-btn > a {
     text-decoration: none;
     color: white;
-    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 22px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#goto-btn > a:hover {
+    text-decoration: underline;
+    color: blue;
+   
 }
 
 /* content of blog card */
-#intro-title {
-    width: 500px;
-    color: white;
-    margin: 15px 5px 5px 10px;
-    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#intro-author {
-    width: 600px;
-    color: white;
-    margin: 15px 5px 5px 15px;
-    font: 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* top pick text */
-#top-pick {
-    font: 20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1 {
+    font: 600 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
-    margin:0 0 10px 10px;
+    text-transform: uppercase;
     color: rgb(238, 125, 125);
 }
+
+h2 {
+    font: 600 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font: 600 18px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+#intro-title {
+    width: 200px;
+    color: white;
+    margin: 0 5px 15px 30px;
+    font: 40px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#author-citation {
+    width: 600px;
+    color: white;
+    margin: 0 5px 5px 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+

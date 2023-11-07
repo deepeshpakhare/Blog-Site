@@ -1,6 +1,7 @@
 @import "./navbar-mobile.css";
 @import"./content-mobile.css";
 @import "./bottom-panel-mobile.css";
+@import "./footer-mobile.css";
 
 
 .container {
@@ -10,7 +11,8 @@
     grid-template-areas:
         "nv nv"
         "main main"
-        "bt bt";
+        "bt bt"
+        "ft ft";
     background-color: rgb(247, 251, 242);
     width: 100vw;
     height: 1000px;
