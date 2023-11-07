@@ -2,20 +2,23 @@
     grid-area: main;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 /* blog card*/
-#blog-image {
-    background-image: url("../../assets/images/cobra-pose.jpg");
-    width: 700px;
-    height: 500px;
+
+#cobra-pose-image {
     border-radius: 10px;
-    object-fit: scale-down;
 }
 
-#blog-image:hover {
+#blog-card {
+    border-radius: 10px;
+    background-color: rgb(206, 183, 183);
+    box-shadow: 5px 5px 5px 5px rgb(173, 169, 169);
+}
+
+#blog-card:hover {
     opacity: 0.8;
 }
 
@@ -23,10 +26,10 @@
 #goto-btn {
     background-color: rgb(92, 204, 238);
     width: 150px;
-    height: 50px;
+    height: 40px;
     border: none;
     border-radius: 10px;
-    margin: 15px 5px 5px 15px;
+    margin: 0 5px 15px 15px;
 }
 
 #goto-btn > a {
@@ -36,24 +39,34 @@
 }
 
 /* content of blog card */
+h1 {
+    font: 600 35px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(238, 125, 125);
+}
+
+h2 {
+    font: 600 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+h3 {
+    font: 600 18px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
 #intro-title {
     width: 500px;
     color: white;
-    margin: 15px 5px 5px 15px;
+    margin: 0 5px 15px 15px;
     font: 38px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #intro-author {
     width: 600px;
     color: white;
-    margin: 15px 5px 5px 15px;
+    margin: 0 5px 5px 15px;
     font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* top pick text */
-#top-pick {
-    font: 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
-    margin:0 0 10px 10px;
-    color: rgb(238, 125, 125);
 }
