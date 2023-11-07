@@ -64,16 +64,28 @@ h3 {
     color: blue;
 }
 
-/* <p> tag settings */
+/* <p> tag styles */
 p {
     line-height: 3cap;
     text-align: justify;
     color: darkslategrey;
 }
 
-/* <ul> settings */
+/* <ul> styles */
 ul {
     line-height: 3cap;
+}
+
+
+/* <a> tag styles */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }
 
 .intro {
