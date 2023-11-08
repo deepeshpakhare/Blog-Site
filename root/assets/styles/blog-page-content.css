@@ -15,12 +15,13 @@
 .content-container {
     grid-area: main;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-start;
     width: 800px;
     margin: 0 0 0 300px;
     font: 23px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 20px;
     
 }
 
@@ -41,7 +42,7 @@
 
 
 .content > a {
-    margin: 0 0 100px 300px;
+    margin: 0 0 100px 270px;
     font-size: large;
 }
 
@@ -126,7 +127,7 @@ a:hover {
     align-items: center;
     height: max-content;
     width: 300px;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 210px;
     background-color: rgb(239, 244, 244);
     border-radius: 20px;
     font-weight: 600;
@@ -144,7 +145,7 @@ a:hover {
     font-size: 20px;
     height: 50px;
     background-color: rgb(209, 220, 220);
-    width: 230px;
+    width: 300px;
     border-radius: 20px;
     gap: 25px;
 }
