@@ -41,26 +41,26 @@
 
 
 .content > a {
-    margin: 0 0 100px 300px;
+    margin: 0 0 100px 200px;
     font-size: large;
 }
 
 /* header tags */
 h1 {
-    font: 600 28px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 600 20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
     text-transform: uppercase; 
     color: crimson;
 }
 
 h2 {
-    font: 200 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 200 20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
     padding: 10px;
 }
 
 h3 {
-    font: 200 25px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 200 20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
     color: blue;
 }
@@ -94,11 +94,6 @@ a:hover {
     height: fit-content;
 }
 
-.image {
-    width: inherit;
-    height: fit-content;
-}
-
 .content-title {
     font : 32px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin : 0 0 0 90px;
@@ -107,22 +102,13 @@ a:hover {
 }
 
 
-
 .image {
     width: 700px;
     height: 500px;
 }
 
-#dhanurasana {
-    background-image: url("../../assets/images/dhanurasana-blog-page.jpg");
-    width: 700px;
-    height: 500px;
-}
-
-#chakrasana {
-    background-image: url("../../assets/images/chakrasana-blog-page.jpg");
-    width: 700px;
-    height: 500px;
+.author-title {
+    width: 300px;
 }
 
 .about-author {
