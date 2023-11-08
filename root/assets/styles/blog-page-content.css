@@ -41,7 +41,7 @@
 
 
 .content > a {
-    margin: 0 0 100px 200px;
+    margin: 0 0 100px 300px;
     font-size: large;
 }
 
@@ -70,11 +70,13 @@ p {
     line-height: 3cap;
     text-align: justify;
     color: darkslategrey;
+    font-size: 20px;
 }
 
 /* <ul> styles */
 ul {
     line-height: 3cap;
+    font-size: 20px;
 }
 
 
@@ -92,11 +94,12 @@ a:hover {
 .intro {
     width: inherit;
     height: fit-content;
+    font-size: 20px;
 }
 
 .content-title {
     font : 32px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin : 0 0 0 90px;
+    margin : 0 0 0 170px;
     text-decoration: underline;
     color: brown;
 }
